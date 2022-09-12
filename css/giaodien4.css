@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    padding: 20px;
+    background-image: url(https://i.pinimg.com/originals/bf/fc/bb/bffcbb3c0a5f66158141ae3e6c89bf11.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.text{
+    margin: 0 auto;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}
+#content{
+    padding: 20px;
+    display: flex;
+    margin-left: 50px;
+}
+#content .form{
+    width: 66.5%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 40px 40px 60px 30px;
+}
+#content .form h1{
+    display: block;
+    color: rgb(0, 112, 120);
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 10px;
+}
+::placeholder {
+    color: rgb(92, 0, 0);
+  }
+  
+  :-ms-input-placeholder { 
+    color: rgb(92, 0, 0);
+  }
+  
+  ::-ms-input-placeholder { 
+    color: rgb(92, 0, 0);
+  }
+#content .form .form-line_one{
+    display: flex;
+}
+#content .form .form-line_one .form-input{
+    padding: 10px;
+    width: 550px;
+}
+#content .form .form-line_one .form-input p{
+    color: rgb(0, 157, 255);
+}
+#content .form .form-line_one .form-input input{
+    width: 413px;
+    height: 40px;
+    padding: 10px;
+    color: rgb(92, 0, 0);
+    margin-top: 5px;
+    border: 2px solid gray;
+}
+#content .form .form-line_two{
+    padding: 10px;
+}
+#content .form .form-line_two p{
+    color: rgb(0, 157, 255);
+}
+#content .form .form-line_two textarea{
+    width: 99.8%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid gray;
+}
+#content .form #gui{
+    width: 100px;
+    height: 45px;
+    margin-left: 10px;
+    margin-top: 5px;
+    background-color: rgba(241, 49, 113, 0.87);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+#content .contact{
+    width: 30%;
+    padding-left: 20px;
+}
+#content .contact .contact_info{
+    background: rgb(2, 43, 69);
+}
+#content .contact .contact_info h1{
+    margin-left: 40px;
+    font-size: 23px;
+    color: white;
+    padding-top: 40px;
+}
+#content .contact .contact_info .info{
+    margin-left: 30px;
+    color: white;
+}
+#content .contact .contact_info .info .item{
+    display: flex;
+    padding: 10px;
+}
+#content .contact .contact_info .info .item p{ 
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+#content .contact .contact_info .info .item .icon i{
+    padding: 10px;
+    border-radius: 50%;
+    background: rgb(0, 137, 155);
+}
+#content .contact .contact_info .info .item .icon_map i{
+    padding: 10px 12px;
+    border-radius: 50%;
+    background: rgb(0, 137, 155);
+}
+#content .contact .contact_info .icon_ic{
+    font-size: 30px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+#content .contact .contact_info .icon_ic .ic{
+    padding-right: 10px;
+    color: azure;
+}
+#content .contact .contact_map{
+    margin-top: 20px;
+}
+#content .contact .contact_map iframe{
+    height: 216px;
+    display: block;
+}

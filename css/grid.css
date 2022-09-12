@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 10px;
+}
+#content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+    gap:10px;
+    background-color: aquamarine;
+    width: 100%;
+    height: 72.4vh;
+    padding: 10px;
+}
+#content img{
+    /* box-shadow: 10px 0 5px -1px rgba(96, 86, 86, 0.477); */
+    box-shadow: rgba(9, 8, 8, 0.53) 2px 5px 15px;
+}
+#content .left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    grid-template-areas: "item1 item1"
+    "item2 item2";
+}
+#content .left .anh1{
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    grid-area: item1;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+#content .left .anh2{
+    width: 100%;
+}
+/* #content .left .item2{
+    margin-top: 5px;
+    display: grid;
+    height: 200px;
+    grid-template-columns: repeat(2,1fr);
+}
+#content .left .item2 .anh2{
+    padding-left: 10px;
+}
+#content .left .item2 img{
+    width: 100%;
+} */
+#content .right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "anh1 anh2"
+    "anh1 anh3"
+    "anh4 anh4"
+    ;
+    gap: 10px;
+}
+#content .right .anh1{
+    grid-area: anh1;
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+#content .right .anh2{
+    grid-area: anh2;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+#content .right .anh3{
+    grid-area: anh3;
+    width: 100%;
+    height: 77px;
+    object-fit: cover;
+}
+#content .right .anh4{
+    grid-area: anh4;
+    width: 100%;
+    height: 159px;
+    object-fit: cover;
+}

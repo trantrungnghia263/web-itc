@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    margin: auto;
+    width: 90%;
+    padding: 15px;
+}
+#content{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+p{
+    font-size: 25px;
+    color: #8f0404;
+    font-weight: bold;
+    font-style: italic;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.noidung{
+    position: relative;
+}
+.noidung .banner ::after{
+    margin: 0 auto;
+    position: relative;
+}
+.noidung .banner img{
+    width: 100%;
+    background-position: center;
+    height: 510px;
+    margin-top: 10px;
+    opacity: 0.4;
+    position: relative;
+}
+.noidung .center{
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin-top: 80px;
+    margin-left: 30px;
+    isolation: isolate;
+}
+.noidung .center .bgr{
+    width: 500px;
+    height: 410px;
+    opacity: 0.6;
+    background-color: rgb(41, 128, 99);
+}
+.noidung .center .text_right{
+    width: 70%;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.noidung .center .text_right h2{
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(71, 69, 69);
+}
+.noidung .center .text_right h5{
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(115, 115, 115);
+}
+.noidung .center .text_right span{
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(101, 99, 99);
+}
+.noidung .center .text_right .baseball{
+    font-size: 40px;
+    color: rgb(86, 165, 26);
+    margin-top: 10px;
+}
+.noidung .caulong{
+    position: absolute;
+    top: 0;
+    margin-top: 130px;
+    margin-left: 120px;
+}
+.noidung .caulong img{
+    width: 300px;
+}
+.noidung .sport{
+    margin-top: 40px;
+    display: flex;
+}
+.noidung .sport .left{
+    display: block;
+}
+.noidung .sport .left .line_one{
+    display: flex;
+}
+.noidung .sport .left .line_one .icon i{
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(86, 165, 26);
+    border-radius: 50%;
+    border: 3px dashed rgb(86, 165, 26);
+}
+.noidung .sport .left .line_two{
+    display: flex;
+    margin-top: 20px;
+}
+.noidung .sport .left .line_two .icon i{
+    padding: 20px;
+    font-size: 30px;
+    color: rgb(86, 165, 26);
+    border-radius: 50%;
+    border: 3px dashed rgb(86, 165, 26);
+}
+.noidung .sport .left .text{
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+.noidung .sport .right{
+    margin-left: 150px;
+}
+.noidung .sport h4{
+    font-weight: normal;
+    color: rgb(86, 165, 26);
+}
+.noidung .sport h3{
+    font-weight: bold;
+    margin-top: 10px;
+    color: rgb(86, 165, 26);
+}

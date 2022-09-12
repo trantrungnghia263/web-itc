@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#content{
+    height: 800px;
+    display: flex;
+    isolation: isolate;
+    position: relative;
+    background-image: url(../image/4_am.jpg);
+}
+.left::after{
+    width: 500px;
+    background: gray;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    isolation: isolate;
+    opacity: .5;
+}
+.left::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgb(35, 31, 26);
+    opacity: .5; 
+}
+/* .left_content{
+    position: relative;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    background: rgb(35, 31, 26);
+    isolation: isolate;
+    opacity: .8;
+}
+.left_content ::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: rgb(35, 31, 26);
+    opacity: .5;
+} */
+.left_content .info{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.left_content .info .title{
+    margin-left: 10px;
+    width: 300px;
+}
+.left_content .info .image img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.left_content .info .title .star1,.star2{
+    color: yellow;
+}
+.left_content .info .title p{
+    color: rgb(245, 245, 22);
+    font-size: 20px;
+    font-style: italic;
+}
+.left_content h1{
+    border-left: 10px solid rgb(237, 119, 119);
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.right_content{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+@font-face{
+    font-family: itc;
+    src: url(/font/GrechenFuemen-Regular.ttf);
+}
+.right_content #clb{
+    font-size: 60px;
+    color: rgb(19, 203, 235);
+    font-family: itc;
+    transform: rotate(-8deg);
+}
+.right_content #itc{
+    font-size: 80px;
+    color: rgb(15, 197, 229);
+    font-family: itc;
+    margin-left: 150px;
+    transform: rotate(-8deg);
+}

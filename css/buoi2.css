@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    background-color: beige;
+    margin: 0 auto;
+}
+#main{
+    margin: 0 auto;
+    position: relative;
+}
+#main .header{
+    background: rgb(76,184,240);
+    background: linear-gradient(90deg, rgba(76,184,240,1) 27%, rgba(54,209,240,1) 50%, rgba(94,171,203,1) 84%);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+    height: 360px;
+}
+#main .header .item_hoatdong{
+    display: flex;
+    margin-left: 290px;
+}
+#main .header .item_hoatdong .item{
+    width: 290px;
+}
+#main .header .item_hoatdong .item ul{
+    display: flex;
+    list-style: none;
+    margin-top: 130px;
+}
+#main .header .item_hoatdong ul li{
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    border: 3px solid white;
+    width: 80px;
+    border-radius: 66% 34% 85% 15% / 52% 40% 60% 48% ;
+    background-color: rgb(251, 148, 74);
+}
+#main .header .item_hoatdong ul li a{
+    text-decoration: none;
+    padding-right: 10px;
+    display: block;
+    color: aliceblue;
+}
+#main .header .item_hoatdong .clb_logo{
+    margin-left: -20px;
+}
+#main .header p{
+    justify-items: center;
+    align-items: center;
+    display: block;
+    width: 400px;
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+#main .header .menu{
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+}
+#main .header .menu ul{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    margin: 0 auto;
+}
+#main .header .menu ul li{
+    padding: 25px;
+    display: block;
+    width: 189px;
+}
+#main .header .menu ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    border-radius: 76% 24% 61% 39% / 56% 51% 49% 44% ;
+    border: 3px solid white;
+    padding: 10px;
+}
+#main .header .menu ul li a:hover{
+    background-color: yellow;
+}
+#main .anh{
+    position: absolute;
+    border: 10px solid white;
+    border-radius: 10px;
+    /* width: 1300px; */
+    margin-top: -60px;
+    margin-left: 130px;
+    padding: 0;
+}
+#main .anh img{
+    /* width: 1280px; */
+    height: auto;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+@font-face{
+    font-family: trian;
+    src: url(../font/GrechenFuemen-Regular.ttf);
+}
+#main .anh p{
+    width: 228px;
+    height: 100px;
+    font-size: 30px;
+    position: absolute;
+    margin-top: -200px;
+    margin-left: 80px;
+    font-family: trian;
+    font-weight: bold;
+    color: yellow;
+    /* width: 150px; */
+}
